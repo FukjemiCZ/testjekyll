@@ -2,6 +2,7 @@
 layout: post
 title: 'Welcome to Jekyll!'
 date: 2021-02-19 23:17:16 +0000
+pin: true
 categories: jekyll update
 ---
 Hej jo tohle je můj první post, druhý bude těžší
