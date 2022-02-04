@@ -5,3 +5,4 @@
 layout: home
 tag: test
 ---
+<h1>{{ "Svět Fukjemi!" | downcase }}</h1>
