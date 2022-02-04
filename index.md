@@ -3,8 +3,8 @@
 # To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 
 layout: home
-tag: test
+title: fukjemi.CZ
 ---
 # Home page
 
-Svět Fukjemi stějně jako že příliš žluťoučký kůň úpěl ďábelské ódy, když držel údy!
+Svět Fukjemi stějně jako že příliš žluťoučký kůň úpěl ďábelské ódy, když řezal Božským ďáblům údy!
