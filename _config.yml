@@ -28,7 +28,7 @@ tagline: Only(For)Funs  # it will display as the sub-title
 description: >-                        # used by seo meta and the atom feed
   Fukjemi, že příliš žluťoučký kůň úpěl ďábelské ódy, když řezal Božským ďáblům údy.
 # fill in the protocol & hostname for your site, e.g., 'https://username.github.io'
-url: ''
+url: 'https://fukjemi.cz/'
 
 github:
   username: fukjemicz             # change to your github username
