@@ -10,23 +10,23 @@ baseurl: ''
 # The language of the webpage › http://www.lingoes.net/en/translator/langcode.htm
 # If it has the same name as one of the files in folder `_data/locales`, the layout language will also be changed,
 # otherwise, the layout language will use the default value of 'en'.
-lang: en
+lang: cs
 
 # Additional parameters for datetime localization, optional. › https://github.com/iamkun/dayjs/tree/dev/src/locale
 prefer_datetime_locale:
 
 # Change to your timezone › http://www.timezoneconverter.com/cgi-bin/findzone/findzone
-timezone: Asia/Shanghai
+timezone: Europe/Prague
 
 # jekyll-seo-tag settings › https://github.com/jekyll/jekyll-seo-tag/blob/master/docs/usage.md
 # ↓ --------------------------
 
-title: FukjemiCZ                          # the main title
+title: Petr Fuk                          # the main title
 
-tagline: A text-focused Jekyll theme   # it will display as the sub-title
+tagline: only Fun  # it will display as the sub-title
 
 description: >-                        # used by seo meta and the atom feed
-  A minimal, responsive, and powerful Jekyll theme for presenting professional writing.
+  Fukjemi, že příliš žluťoučký kůň úpěl ďábelské ódy, když řezal Božským ďáblům údy.
 # fill in the protocol & hostname for your site, e.g., 'https://username.github.io'
 url: ''
 
@@ -45,8 +45,6 @@ social:
     # The first element serves as the copyright owner's link
     - https://twitter.com/fukjemi      # change to your twitter homepage
     - https://github.com/fukjemicz       # change to your github homepage
-    # Uncomment below to add more social links
-    # - https://www.facebook.com/username
     - https://www.linkedin.com/in/petrfuk/
 
 google_site_verification:               # fill in to your verification string
@@ -72,7 +70,7 @@ google_analytics:
 #     light  - Use the light color scheme
 #     dark   - Use the dark color scheme
 #
-theme_mode:   # [light|dark]
+theme_mode: dark   # [light|dark]
 
 # The CDN endpoint for images.
 # Notice that once it is assigned, the CDN url
