@@ -23,7 +23,7 @@ timezone: Europe/Prague
 
 title: Petr Fuk                          # the main title
 
-tagline: only Fun  # it will display as the sub-title
+tagline: Only(For)Funs  # it will display as the sub-title
 
 description: >-                        # used by seo meta and the atom feed
   Fukjemi, že příliš žluťoučký kůň úpěl ďábelské ódy, když řezal Božským ďáblům údy.
@@ -35,8 +35,7 @@ github:
 
 twitter:
   username: fukjemi            # change to your twitter username
-linkedin:
-  username: petrfuk
+
 social:
   # Change to your full name.
   # It will be displayed as the default author of the posts and the copyright owner in the Footer
@@ -46,7 +45,6 @@ social:
     # The first element serves as the copyright owner's link
     - https://twitter.com/fukjemi      # change to your twitter homepage
     - https://github.com/fukjemicz       # change to your github homepage
-    - https://www.linkedin.com/in/petrfuk/
 
 google_site_verification:               # fill in to your verification string
 
@@ -71,7 +69,7 @@ google_analytics:
 #     light  - Use the light color scheme
 #     dark   - Use the dark color scheme
 #
-theme_mode: dark   # [light|dark]
+theme_mode: [dark|light]   # [light|dark]
 
 # The CDN endpoint for images.
 # Notice that once it is assigned, the CDN url
