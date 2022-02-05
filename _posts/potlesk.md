@@ -1,0 +1,36 @@
+---
+layout: post
+title: 'Jak jsem opravoval internet'
+date: 2022-01-21 18:17:16'
+pin: true
+categories: osvc work isp
+tags: PánCoDětemOpravovalYoutube
+---
+Březen 2020 covid už tu byl chvilku s námi. Takže jsem asi měsíc jezdil a instaloval lidem domů internet. Byl jsem ten pán co dětem opravil Youtube a rodíčům umožnil pracovat z domu.
+Nejčastější slova, která jsem slyšel byla: "nefunguje mi to, je to pomalé, mohl bych dostat slevu?"
+Občas mi poslal smsku Bonzák(nagios) a já jsem jel na výjezd. Třeba, když déšť vyplavil rack, bouřka spálila zdroje a podobně.
+
+Ovšem koncem března, nevím den, ale bylo šest večer. Když se nám(už zase), odpojilo šest paneláků na sídlišti(pro lepší přestavu tomu sídlišti můžeme říkat Vajgar). Bonzák pípal jak o život.
+Spoj se nám totiž co 10 minut restartoval. Takže 10 minut fungoval pak restart. V tu chvíli bych nechtěl být zákazníkem a pařit nějakou onlajnovku. Navíc v televizi dávali hokej. Stejně jako se chtěli dívat naši zákazníci, tak jsem se chtěl dívat i já.
+
+Moc dobře jsem věděl, že tam je spoj 60Ghz Metrolinq(nevím přesný model). V týmu jsme byli domluveni, že při dalším problému půjde dolu a dáme tam LHG60 od mikrotiku.
+Akce probíhala velmi zajímavě, v regionu jsme neměli zkušeního kolegu. Byli jsme tam reálně dva a ani ne dva měsíce(celkem profi). Další tři kolegové k nám jezdili na výpomoc a zaučovat nás z jiného okresu.
+
+Zavolali jsme si řekli si, že to zvládneme. Pak už jen vyrazili na Vajgarský panelák.
+LHG60 jsme viděli podruhé(poprvé jsme se jen podívali jak se skládá, ale do administrace jsme se nepouštěli.
+Ač jsem znal mikrotik celkem obstojně, nevěděl jsem o pár záludných nastaveních LHG60 a to mne později vypeklo.
+Nejdříve jsḿe šli do prvního paneláku. Tam byl začátek spoje(AP) ve výtahovce u racku jsme spárovali proti sobě dvě LHG60. Nastavili jim správné IP a vysvětlili si hodnoty co máme na mobilech hlídat při směrování.
+Kolem čtvrt na osum jsem vyslal kolegu na cílový panelák. Kde měl sundat Metrolinq a přidat tam LHG60. To samé jsem dělal já na výchozím paneláku. Samozřejmě jsme si během výměny volali, aby jsme si ulehčili směrování.
+Kolem 19:45 jsme měli spojeno a sesměrováno na nejlepší možné hodnoty. Ovšem internet nám stále nefungoval a data se nepřenášela.
+Přišla tma tak jsme si domluvili základní signály svítilnou. Zavolal jsem adminovi. Pět minut mi trvalo jej sehnat. Nechtěl mi to zvednout.
+
+Problémy byl naštěstí jen jeden drobnej, ale i zkušenému adminovi to trvalo 10 minut, kdy i on hledal to jediné nezatrhlé zaškrtávátko. Pak se to stalo, říká "Mám to!" Už i bonzák přestal prudit. Kolegovi jsem dal světelný signál, že to máme hotové. Jen co jsem to odmávl tak to začlo.
+
+Lidé začali otevírat okna a tleskat, fakt tleskat. Tleskalo celé sídliště, tleskali asi 10 minut.
+
+Má první myšlenka byla samozřejmně: "Díky, ale to fakt nemusíte dělat takový drama, jen kvůli opravenému internetu. Závisláci jedni."
+
+Samozřejmně po chvilce mi to došlo a tleskal jsem taky. Byl to ještě jeden z těch dnů, kdy se přesně ve 20:00 otevřeli okna a lidé tleskali zdravotníkům.
+
+Stejně ten potlesk byl i za opravu internetu.
+#PánCoDětemOpravovalYoutube
