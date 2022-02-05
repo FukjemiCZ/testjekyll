@@ -1,54 +1,54 @@
   -
     layout: work
-    pozice: 'SYSTEM ADMINISTRATOR'
-    company: 'Consovenio'
-    startdate: '2018-11'
-    enddate: '2020-01'
-    tools: ''
-    skils: ''
-    text: 'Správa infrastruktury, IT systémů a aplikací ve vývojové firmě.'
-  -
-    layout: work
-    pozice: 'SPRÁVCE PERSONÁLNÍ DATABÁZE'
-    company: 'MASARYKŮV ONKOLOGICKÝ ÚSTAV'
-    startdate: '2016-01'
-    enddate: '2017-07'
-    tools: ''
-    skils: ''
-    text: 'Správa personálního systému Vema. Zpracování dat ze systému. Metodická pomoc se zadáváním dat. Správa plánovacího sw ShiftMaster. Správa lokalizačního sw Ekahau.'
-  -
-    layout: work
     pozice: 'SYSTEM SPECIALIST'
     company: 'Liversport s.r.o.'
-    startdate: '2020-00'
-    enddate: ''
+    startdate: 'Září 2020'
+    enddate: 'Dnes'
     tools: ''
     skils: ''
     text: 'Support and Tools'
   -
     layout: work
-    pozice: 'IT SYSTEM ADMINISTRATOR'
-    company: 'KUBOUŠEK EU HOLDING A. S.'
-    startdate: '2017-08'
-    enddate: '2018-11'
-    tools: ''
-    skils: ''
-    text: 'Powershell, ActiveDirectory, Exchange, VMware, Hyper-V, Veeam, Nagios, Zyxel, UniFi, Uniflow, asterisk voip; VPN Instalace OS a SW. Řešení různorodých uživatelských problémů.'
-  -
-    layout: work
     pozice: 'OSVČ'
     company: 'Fukjemi.CZ'
-    startdate: '2017-03'
-    enddate: '2020-09'
+    startdate: 'Březen 2017'
+    enddate: 'Září 2020'
     tools: ''
     skils: ''
     text: 'Připojení zkazníků k internetu, správa IT infrastruktury malých a středních firem'
   -
     layout: work
+    pozice: 'SYSTEM ADMINISTRATOR'
+    company: 'Consovenio'
+    startdate: 'Listopad 2018'
+    enddate: 'Leden 2020'
+    tools: ''
+    skils: ''
+    text: 'Správa infrastruktury, IT systémů a aplikací ve vývojové firmě.'
+  -
+    layout: work
+    pozice: 'IT SYSTEM ADMINISTRATOR'
+    company: 'KUBOUŠEK EU HOLDING A. S.'
+    startdate: 'Srpen 2017'
+    enddate: 'Listopad 2018'
+    tools: ''
+    skils: ''
+    text: 'Powershell, ActiveDirectory, Exchange, VMware, Hyper-V, Veeam, Nagios, Zyxel, UniFi, Uniflow, asterisk voip; VPN Instalace OS a SW. Řešení různorodých uživatelských problémů.'
+  -
+    layout: work
+    pozice: 'SPRÁVCE PERSONÁLNÍ DATABÁZE'
+    company: 'MASARYKŮV ONKOLOGICKÝ ÚSTAV'
+    startdate: 'Leden 2016'
+    enddate: 'Červenec 2017'
+    tools: ''
+    skils: ''
+    text: 'Správa personálního systému Vema. Zpracování dat ze systému. Metodická pomoc se zadáváním dat. Správa plánovacího sw ShiftMaster. Správa lokalizačního sw Ekahau.'
+  -
+    layout: work
     pozice: 'VEDOUCÍ ZÁJMOVÉHO KROUŽKU - LEKTOR'
     company: 'DŮM DĚTÍ A MLÁDEŽE'
-    startdate: '2014-09'
-    enddate: '2016-06'
+    startdate: 'Září 2014'
+    enddate: 'Červen 2016'
     tools: ''
     skils: ''
     text: 'Vedení zájmového poznávacího kroužku jsem bral jako výsadu. Hlavním cílem pro mne bylo zaujmout a ukázat dětem, že počítače nejsou jen na hry. Že nesmějí věřit všemu co v nich vidí.'
