@@ -4,9 +4,11 @@ layout: page
 ---
 
 <div id="works" class="pl-xl-2">
-
-{% for work in site.works %}
-   {{ work.company }}</a>
+  % for post in site.posts %}
+  <li>
+    <h2>{{ post.company }}</h2>
+    {{ post.excerpt }}
+  </li>
 {% endfor %}
 </div>
 <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
