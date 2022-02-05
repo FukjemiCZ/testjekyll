@@ -1,16 +1,16 @@
 ---
 layout: page
-# The Curiculumvite of workss.
+# The Curiculumvite of schoolss.
 ---
-<div id="works" class="pl-xl-2">
-{% for work in site.data.timeline.works %}
+<div id="schools" class="pl-xl-2">
+{% for school in site.data.timeline.schools %}
   <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
     <div class="flex-grow-1">
-      <h3 class="mb-0">{{ work.company }}</h3>
-      <div class="subheading mb-3">{{ work.pozice }}</div>
-      <p>{{ work.text }}</p>
+      <h3 class="mb-0">{{ school.company }}</h3>
+      <div class="subheading mb-3">{{ school.pozice }}</div>
+      <p>{{ school.text }}</p>
     </div>
-    <div class="flex-shrink-0"><span class="text-primary">{{ work.startdate }} - {{ work.enddate }}</span></div>
+    <div class="flex-shrink-0"><span class="text-primary">{{ school.startdate }} - {{ school.enddate }}</span></div>
   </div>
 {% endfor %}
 </div>
