@@ -1,4 +1,4 @@
-  works:
+works:
   -
     pozice: 'SYSTEM SPECIALIST'
     company: 'Liversport s.r.o.'
@@ -47,7 +47,7 @@
     tools: ''
     skils: ''
     text: 'Vedení zájmového poznávacího kroužku jsem bral jako výsadu. Hlavním cílem pro mne bylo zaujmout a ukázat dětem, že počítače nejsou jen na hry. Že nesmějí věřit všemu co v nich vidí.'
-  schools:
+schools:
   -
     company: 'Střední odborná škola a střední odborné učiliště Jindřichův Hradec'
     pozice: '18-20-M/01  Informační technologie'
