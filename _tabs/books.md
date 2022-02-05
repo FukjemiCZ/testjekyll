@@ -1,6 +1,6 @@
 ---
 layout: books
 title: CO JSEM ČETL
-icon: fas fa-tag
+icon: fas fa-book
 order: 4
 ---
