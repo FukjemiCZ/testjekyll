@@ -1,6 +1,5 @@
   works:
   -
-    layout: work
     pozice: 'SYSTEM SPECIALIST'
     company: 'Liversport s.r.o.'
     startdate: 'Září 2020'
@@ -9,7 +8,6 @@
     skils: ''
     text: 'Support and Tools'
   -
-    layout: work
     pozice: 'OSVČ'
     company: 'Fukjemi.CZ'
     startdate: 'Březen 2017'
@@ -18,7 +16,6 @@
     skils: ''
     text: 'Připojení zkazníků k internetu, správa IT infrastruktury malých a středních firem'
   -
-    layout: work
     pozice: 'SYSTEM ADMINISTRATOR'
     company: 'Consovenio'
     startdate: 'Listopad 2018'
@@ -27,7 +24,6 @@
     skils: ''
     text: 'Správa infrastruktury, IT systémů a aplikací ve vývojové firmě.'
   -
-    layout: work
     pozice: 'IT SYSTEM ADMINISTRATOR'
     company: 'KUBOUŠEK EU HOLDING A. S.'
     startdate: 'Srpen 2017'
@@ -36,7 +32,6 @@
     skils: ''
     text: 'Powershell, ActiveDirectory, Exchange, VMware, Hyper-V, Veeam, Nagios, Zyxel, UniFi, Uniflow, asterisk voip; VPN Instalace OS a SW. Řešení různorodých uživatelských problémů.'
   -
-    layout: work
     pozice: 'SPRÁVCE PERSONÁLNÍ DATABÁZE'
     company: 'MASARYKŮV ONKOLOGICKÝ ÚSTAV'
     startdate: 'Leden 2016'
@@ -45,7 +40,6 @@
     skils: ''
     text: 'Správa personálního systému Vema. Zpracování dat ze systému. Metodická pomoc se zadáváním dat. Správa plánovacího sw ShiftMaster. Správa lokalizačního sw Ekahau.'
   -
-    layout: work
     pozice: 'VEDOUCÍ ZÁJMOVÉHO KROUŽKU - LEKTOR'
     company: 'DŮM DĚTÍ A MLÁDEŽE'
     startdate: 'Září 2014'
@@ -53,3 +47,36 @@
     tools: ''
     skils: ''
     text: 'Vedení zájmového poznávacího kroužku jsem bral jako výsadu. Hlavním cílem pro mne bylo zaujmout a ukázat dětem, že počítače nejsou jen na hry. Že nesmějí věřit všemu co v nich vidí.'
+  school:
+  -
+    company: 'Střední odborná škola a střední odborné učiliště Jindřichův Hradec'
+    pozice: '18-20-M/01  Informační technologie'
+    text: 'Ukončeno úspěšnou maturitní zkouškou'
+    startdate: 'Září 2011'
+    enddate: 'Červen 2015'
+    tools: ''
+    skils: ''
+  -
+    company: 'Microsoft Studentské trenérské centrum'
+    pozice: ''
+    text: 'Vzdělávací program firmy Microsoft, určený pro vybrané středoškolské studenty. Seznámení se serverovými aplikacemi společnosti Microsoft.'
+    startdate: 'Prosinec 2014'
+    enddate: 'Duben 2016'
+    tools: ''
+    skils: ''
+  -
+    company: 'Vysoké učení technické v Brně'
+    pozice: 'Mikroelektronika a technologie'
+    text: 'Studium ukončeno po prvním semestru'
+    startdate: 'Září 2015'
+    enddate: 'Únor 2016'
+    tools: ''
+    skils: ''
+  -   
+    company: 'Vyšší odborná škola, Střední škola, Centrum odborné přípravy, Sezimovo Ústí, Budějovická 421'
+    pozice: '26-51-H/01 Elektrikář–programovatelné elektroinstalace'
+    text: 'Zatím studium nezahájeno, jsem pouze přihlášen ke studiu.'
+    startdate: 'Zahájení v září 2020'
+    enddate: ''
+    tools: ''
+    skils: ''
