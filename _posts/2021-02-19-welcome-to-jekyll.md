@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 'Welcome to Jekyll!'
-date: 2021-02-19 23:17:16 +0000
+date: 2021-02-19 23:17:16'
 pin: true
 categories: jekyll update
 ---
