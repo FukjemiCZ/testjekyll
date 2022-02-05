@@ -57,8 +57,8 @@
     tools: ''
     skils: ''
   -
-    company: 'Microsoft Studentské trenérské centrum'
-    pozice: ''
+    company: 'Microsoft'
+    pozice: 'Studentské trenérské centrum'
     text: 'Vzdělávací program firmy Microsoft, určený pro vybrané středoškolské studenty. Seznámení se serverovými aplikacemi společnosti Microsoft.'
     startdate: 'Prosinec 2014'
     enddate: 'Duben 2016'
