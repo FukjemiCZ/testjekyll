@@ -1,0 +1,68 @@
+  -
+    layout: work
+    pozice: 'SYSTEM ADMINISTRATOR'
+    company: 'Consovenio'
+    startdate: '2018-11'
+    enddate: '2020-01'
+    tools: ''
+    skils: ''
+    text: 'Správa infrastruktury, IT systémů a aplikací ve vývojové firmě.'
+  -
+    layout: work
+    pozice: 'SPRÁVCE PERSONÁLNÍ DATABÁZE'
+    company: 'MASARYKŮV ONKOLOGICKÝ ÚSTAV'
+    startdate: '2016-01'
+    enddate: '2017-07'
+    tools: ''
+    skils: ''
+    text: 'Správa personálního systému Vema. Zpracování dat ze systému. Metodická pomoc se zadáváním dat. Správa plánovacího sw ShiftMaster. Správa lokalizačního sw Ekahau.'
+  -
+    layout: work
+    pozice: 'SYSTEM SPECIALIST'
+    company: 'Liversport s.r.o.'
+    startdate: '2020-00'
+    enddate: ''
+    tools: ''
+    skils: ''
+    text: 'Support and Tools'
+  -
+    layout: work
+    pozice: 'IT SYSTEM ADMINISTRATOR'
+    company: 'KUBOUŠEK EU HOLDING A. S.'
+    startdate: '2017-08'
+    enddate: '2018-11'
+    tools: ''
+    skils: ''
+    text: 'Powershell, ActiveDirectory, Exchange, VMware, Hyper-V, Veeam, Nagios, Zyxel, UniFi, Uniflow, asterisk voip; VPN Instalace OS a SW. Řešení různorodých uživatelských problémů.'
+  -
+    layout: work
+    pozice: 'OSVČ'
+    company: 'Fukjemi.CZ'
+    startdate: '2017-03'
+    enddate: '2020-09'
+    tools: ''
+    skils: ''
+    text: 'Připojení zkazníků k internetu, správa IT infrastruktury malých a středních firem'
+  -
+    layout: work
+    pozice: 'VEDOUCÍ ZÁJMOVÉHO KROUŽKU - LEKTOR'
+    company: 'DŮM DĚTÍ A MLÁDEŽE'
+    startdate: '2014-09'
+    enddate: '2016-06'
+    tools: ''
+    skils: ''
+    text: 'Vedení zájmového poznávacího kroužku jsem bral jako výsadu. Hlavním cílem pro mne bylo zaujmout a ukázat dětem, že počítače nejsou jen na hry. Že nesmějí věřit všemu co v nich vidí.'
+
+
+  -
+    type: Twitter
+    icon: "fab fa-twitter"
+    link: "https://twitter.com/intent/tweet?text=TITLE&url=URL"
+  -
+    type: Facebook
+    icon: "fab fa-facebook-square"
+    link: "https://www.facebook.com/sharer/sharer.php?title=TITLE&u=URL"
+  -
+    type: Telegram
+    icon: "fab fa-telegram"
+    link: "https://telegram.me/share?text=TITLE&url=URL"
