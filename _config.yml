@@ -126,6 +126,13 @@ defaults:
       # to update the code of all other post links in this project.
       permalink: /posts/:title/
   - scope:
+      path: '_works'          # An empty string here means all files in the project
+      type: works
+    values:
+      layout: work
+      comments: false    # Enable comments in posts.
+      permalink: /work/:company/
+  - scope:
       path: _drafts
     values:
       comments: false
