@@ -2,7 +2,7 @@
 layout: page
 title: VZDĚLÁNÍ
 icon: fas fa-archive
-order: 7
+order: 2
 ---
 <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
     <div class="flex-grow-1">

@@ -1,7 +1,7 @@
 ---
 title: About
 icon: fas fa-info-circle
-order: 4
+order: 0
 ---
 <h1 class="mb-0">
     Petr
