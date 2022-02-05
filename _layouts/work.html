@@ -1,0 +1,37 @@
+---
+layout: page
+# The Curiculumvite of workss.
+---
+
+<div id="archives" class="pl-xl-2">
+
+{% for work in site.works %}
+  {% capture this_year %}{{ work.startdate | start date: "%Y" }}{% endcapture %}
+  {% capture pre_year %}{{ work.previous.date | date: "%Y" }}{% endcapture %}
+  {% if forloop.first %}
+    {% assign last_day = "" %}
+    {% assign last_month = "" %}
+  <span class="lead">{{this_year}}</span>
+  <ul class="list-unstyled">
+  {% endif %}
+    <li>
+      <div>
+        {% assign ts = work.startdate | start date: '%s' %}
+        <span class="date day" data-ts="{{ ts }}" data-df="DD">{{ work.startdate | start date: "%d" }}</span>
+        <span class="date month small text-muted" data-ts="{{ ts }}" data-df="MMM">
+          {{ work.startdate | start date: '%m' }}
+        </span>
+        <a href="{{ work.url | relative_url }}">{{ work.company }}</a>
+      </div>
+    </li>
+  {% if forloop.last %}
+  </ul>
+  {% elsif this_year != pre_year %}
+  </ul>
+  <span class="lead">{{pre_year}}</span>
+  <ul class="list-unstyled">
+    {% assign last_day = "" %}
+    {% assign last_month = "" %}
+  {% endif %}
+{% endfor %}
+</div>
