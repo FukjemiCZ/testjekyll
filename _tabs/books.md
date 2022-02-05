@@ -1,6 +1,6 @@
 ---
 layout: books
-title: CO JSEM ČETL
+title: Co jsem četl
 icon: fas fa-book
 order: 4
 ---

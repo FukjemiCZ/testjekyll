@@ -1,6 +1,6 @@
 ---
 layout: schools
-title: VZDĚLÁNÍ
+title: Vzdělávání
 icon: fas fa-school
 order: 2
 ---
