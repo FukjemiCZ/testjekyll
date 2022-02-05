@@ -1,7 +1,7 @@
 ---
 layout: page
 title: ŽIVOT OFFLINE
-icon: fas fa-offline
+icon: fas fa-dog
 order: 3
 ---
 <p>..hraju basketball. Rád se pohnu, zkouším jak různé kolektivní sporty tak canicross. Občas jdu na delší procházku osobní rekord mám zatím jen 50km/den</p>
