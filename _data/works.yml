@@ -52,17 +52,3 @@
     tools: ''
     skils: ''
     text: 'Vedení zájmového poznávacího kroužku jsem bral jako výsadu. Hlavním cílem pro mne bylo zaujmout a ukázat dětem, že počítače nejsou jen na hry. Že nesmějí věřit všemu co v nich vidí.'
-
-
-  -
-    type: Twitter
-    icon: "fab fa-twitter"
-    link: "https://twitter.com/intent/tweet?text=TITLE&url=URL"
-  -
-    type: Facebook
-    icon: "fab fa-facebook-square"
-    link: "https://www.facebook.com/sharer/sharer.php?title=TITLE&u=URL"
-  -
-    type: Telegram
-    icon: "fab fa-telegram"
-    link: "https://telegram.me/share?text=TITLE&url=URL"
