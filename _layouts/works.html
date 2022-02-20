@@ -5,6 +5,7 @@ layout: page
 <div id="works" class="pl-xl-2">
 {% for work in site.data.timeline.author_work_experience %}
   <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
+    <img src="{{site.url}}{{site.baseurl}}/_img/{{ work.company_logo }}" class="company-logo"/>
     <div class="flex-grow-1">
       <h3 class="mb-0">{{ work.company_name }}</h3>
       <div class="subheading mb-3">{{ work.designation }}</div>
