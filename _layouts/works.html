@@ -10,7 +10,7 @@ layout: page
       {% if work.company_logo contains '://' %}
         {{ work.company_logo }}
       {% elsif site.img_cdn != empty and site.img_cdn %}
-        /_img/{{ work.company_logo | prepend: site.img_cdn }}
+        {{site.img_cdn}}/_img/{{work.company_logo}}
       {% else %}
         {{ work.company_logo | relative_url }}
       {% endif %}
