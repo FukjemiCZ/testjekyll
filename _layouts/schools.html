@@ -5,6 +5,18 @@ layout: page
 <div id="schools" class="pl-xl-2">
 {% for school in site.data.timeline.author_education_details %}
   <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
+    {% if work.college_logo != empty and work.college_logo %}
+    {% capture collegeimg_url %}
+      {% if work.college_logo contains '://' %}
+        {{ work.college_logo }}
+      {% elsif site.img_cdn != empty and site.img_cdn %}
+        {{site.img_cdn}}/_img/{{work.college_logo}}
+      {% else %}
+        {{ work.college_logo | relative_url }}
+      {% endif %}
+    {% endcapture %}
+    <img src="{{ collegeimg_url }}" alt="company-logo" class="company-logo" onerror="this.style.display='none'" style="max-width:100px;max-height:100px;width:100%">
+    {% endif %}
     <div class="flex-grow-1">
       <h3 class="mb-0">{{ school.college_name }}</h3>
       <div class="subheading mb-3">{{ school.college_degree }}</div>
