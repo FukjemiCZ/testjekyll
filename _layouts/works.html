@@ -3,14 +3,14 @@ layout: page
 # The Curiculumvite of workss.
 ---
 <div id="works" class="pl-xl-2">
-{% for work in site.data.timeline.works %}
+{% for work in site.data.timeline.author_work_experience %}
   <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
     <div class="flex-grow-1">
-      <h3 class="mb-0">{{ author_work_experiences.company_name }}</h3>
-      <div class="subheading mb-3">{{ author_work_experiences.designation }}</div>
-      <p>{{ author_work_experiences.description }}</p>
+      <h3 class="mb-0">{{ works.company_name }}</h3>
+      <div class="subheading mb-3">{{ works.designation }}</div>
+      <p>{{ works.description }}</p>
     </div>
-    <div class="flex-shrink-0"><span class="text-primary">{{ author_work_experiences.startdate }} - {{ author_work_experiences.enddate }}</span></div>
+    <div class="flex-shrink-0"><span class="text-primary">{{ works.startdate }} - {{ works.enddate }}</span></div>
   </div>
 {% endfor %}
 </div>

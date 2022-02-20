@@ -3,14 +3,14 @@ layout: page
 # The Curiculumvite of schools.
 ---
 <div id="schools" class="pl-xl-2">
-{% for school in site.data.timeline.schools %}
+{% for school in site.data.timeline.author_education_details %}
   <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
     <div class="flex-grow-1">
-      <h3 class="mb-0">{{ author_education_details.college_name }}</h3>
-      <div class="subheading mb-3">{{ author_education_details.college_degree }}</div>
-      <p>{{ author_education_details.description }}</p>
+      <h3 class="mb-0">{{ school.college_name }}</h3>
+      <div class="subheading mb-3">{{ school.college_degree }}</div>
+      <p>{{ school.description }}</p>
     </div>
-    <div class="flex-shrink-0"><span class="text-primary">{{ author_education_details.startdate }} - {{ author_education_details.enddate }}</span></div>
+    <div class="flex-shrink-0"><span class="text-primary">{{ school.startdate }} - {{ school.enddate }}</span></div>
   </div>
 {% endfor %}
 </div>
