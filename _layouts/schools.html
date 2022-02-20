@@ -6,14 +6,14 @@ layout: page
 {% for school in site.data.timeline.author_education_details %}
   <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
     <div class="flex-grow-1">
-    {% if work.college_logo != empty and work.college_logo %}
+    {% if school.college_logo != empty and school.college_logo %}
     {% capture collegeimg_url %}
-      {% if work.college_logo contains '://' %}
-        {{ work.college_logo }}
+      {% if school.college_logo contains '://' %}
+        {{ school.college_logo }}
       {% elsif site.img_cdn != empty and site.img_cdn %}
-        {{site.img_cdn}}/_img/{{work.college_logo}}
+        {{site.img_cdn}}/_img/{{school.college_logo}}
       {% else %}
-        {{ work.college_logo | relative_url }}
+        {{ school.college_logo | relative_url }}
       {% endif %}
     {% endcapture %}
     <img src="{{ collegeimg_url }}" alt="company-logo" class="company-logo" onerror="this.style.display='none'" style="max-width:100px;max-height:100px;width:100%">
