@@ -6,11 +6,11 @@ layout: page
 {% for work in site.data.timeline.author_work_experience %}
   <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
     <div class="flex-grow-1">
-      <h3 class="mb-0">{{ works.company_name }}</h3>
-      <div class="subheading mb-3">{{ works.designation }}</div>
-      <p>{{ works.description }}</p>
+      <h3 class="mb-0">{{ work.company_name }}</h3>
+      <div class="subheading mb-3">{{ work.designation }}</div>
+      <p>{{ work.description }}</p>
     </div>
-    <div class="flex-shrink-0"><span class="text-primary">{{ works.startdate }} - {{ works.enddate }}</span></div>
+    <div class="flex-shrink-0"><span class="text-primary">{{ work.startdate }} - {{ work.enddate }}</span></div>
   </div>
 {% endfor %}
 </div>
