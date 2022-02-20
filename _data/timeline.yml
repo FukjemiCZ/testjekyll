@@ -1,82 +1,130 @@
-works:
+# Experiences
+author_work_experiences:
   -
-    pozice: 'SYSTEM SPECIALIST'
-    company: 'Liversport s.r.o.'
+    designation: 'SYSTEM SPECIALIST'
+    company_name: 'Liversport s.r.o.'
     startdate: 'Září 2020'
     enddate: 'Dnes'
     tools: ''
     skils: ''
-    text: 'Support and Tools'
+    description: 'Support and Tools'
+    company_logo: livesport.jpeg
+    company_url: https://livesport.eu
+    visibility: true
   -
-    pozice: 'OSVČ'
-    company: 'Fukjemi.CZ'
+    designation: 'OSVČ'
+    company_name: 'Fukjemi.CZ'
     startdate: 'Březen 2017'
     enddate: 'Září 2020'
     tools: ''
     skils: ''
-    text: 'Připojení zkazníků k internetu, správa IT infrastruktury malých a středních firem'
+    description: 'Připojení zkazníků k internetu, správa IT infrastruktury malých a středních firem'
+    company_logo: google.png
+    company_url: https://google.com
+    visibility: true
   -
-    pozice: 'SYSTEM ADMINISTRATOR'
-    company: 'Consovenio'
+    designation: 'SYSTEM ADMINISTRATOR'
+    company_name: 'Consovenio'
     startdate: 'Listopad 2018'
     enddate: 'Leden 2020'
     tools: ''
     skils: ''
-    text: 'Správa infrastruktury, IT systémů a aplikací ve vývojové firmě.'
+    description: 'Správa infrastruktury, IT systémů a aplikací ve vývojové firmě.'
+    company_logo: consovenio.svg
+    company_url: https://consovenio.com
+    visibility: true
   -
-    pozice: 'IT SYSTEM ADMINISTRATOR'
-    company: 'KUBOUŠEK EU HOLDING A. S.'
+    designation: 'IT SYSTEM ADMINISTRATOR'
+    company_name: 'KUBOUŠEK EU HOLDING A. S.'
     startdate: 'Srpen 2017'
     enddate: 'Listopad 2018'
     tools: ''
     skils: ''
-    text: 'Powershell, ActiveDirectory, Exchange, VMware, Hyper-V, Veeam, Nagios, Zyxel, UniFi, Uniflow, asterisk voip; VPN Instalace OS a SW. Řešení různorodých uživatelských problémů.'
+    description: 'Powershell, ActiveDirectory, Exchange, VMware, Hyper-V, Veeam, Nagios, Zyxel, UniFi, Uniflow, asterisk voip; VPN Instalace OS a SW. Řešení různorodých uživatelských problémů.'
+    company_logo: kubousek.png
+    company_url: https://kubousek.eu
+    visibility: true
   -
-    pozice: 'SPRÁVCE PERSONÁLNÍ DATABÁZE'
-    company: 'MASARYKŮV ONKOLOGICKÝ ÚSTAV'
+    designation: 'SPRÁVCE PERSONÁLNÍ DATABÁZE'
+    company_name: 'MASARYKŮV ONKOLOGICKÝ ÚSTAV'
     startdate: 'Leden 2016'
     enddate: 'Červenec 2017'
     tools: ''
     skils: ''
-    text: 'Správa personálního systému Vema. Zpracování dat ze systému. Metodická pomoc se zadáváním dat. Správa plánovacího sw ShiftMaster. Správa lokalizačního sw Ekahau.'
+    description: 'Správa personálního systému Vema. Zpracování dat ze systému. Metodická pomoc se zadáváním dat. Správa plánovacího sw ShiftMaster. Správa lokalizačního sw Ekahau.'
+    company_logo: mou.svg
+    company_url: https://mou.cz
+    visibility: true
   -
-    pozice: 'VEDOUCÍ ZÁJMOVÉHO KROUŽKU - LEKTOR'
-    company: 'DŮM DĚTÍ A MLÁDEŽE'
+    designation: 'VEDOUCÍ ZÁJMOVÉHO KROUŽKU - LEKTOR'
+    company_name: 'DŮM DĚTÍ A MLÁDEŽE'
     startdate: 'Září 2014'
     enddate: 'Červen 2016'
     tools: ''
     skils: ''
-    text: 'Vedení zájmového poznávacího kroužku jsem bral jako výsadu. Hlavním cílem pro mne bylo zaujmout a ukázat dětem, že počítače nejsou jen na hry. Že nesmějí věřit všemu co v nich vidí.'
-schools:
+    description: 'Vedení zájmového poznávacího kroužku jsem bral jako výsadu. Hlavním cílem pro mne bylo zaujmout a ukázat dětem, že počítače nejsou jen na hry. Že nesmějí věřit všemu co v nich vidí.'
+    company_logo: ddmjh.png
+    company_url: https://ddmjh.cz
+    visibility: true
+
+# Education
+author_education_details:
   -
-    company: 'Střední odborná škola a střední odborné učiliště Jindřichův Hradec'
-    pozice: '18-20-M/01  Informační technologie'
-    text: 'Ukončeno úspěšnou maturitní zkouškou'
+    college_name: 'Střední odborná škola a střední odborné učiliště Jindřichův Hradec'
+    college_degree: '18-20-M/01  Informační technologie'
+    description: 'Ukončeno úspěšnou maturitní zkouškou'
     startdate: 'Září 2011'
     enddate: 'Červen 2015'
     tools: ''
     skils: ''
+    college_logo: sosu.png
+    college_url: https://sos-jh.cz
+    visibility: true
   -
-    company: 'Microsoft'
-    pozice: 'Studentské trenérské centrum'
-    text: 'Vzdělávací program firmy Microsoft, určený pro vybrané středoškolské studenty. Seznámení se serverovými aplikacemi společnosti Microsoft.'
+    college_name: 'Microsoft'
+    college_degree: 'Studentské trenérské centrum'
+    description: 'Vzdělávací program firmy Microsoft, určený pro vybrané středoškolské studenty. Seznámení se serverovými aplikacemi společnosti Microsoft.'
     startdate: 'Prosinec 2014'
     enddate: 'Duben 2016'
     tools: ''
     skils: ''
+    college_logo: microsoft.png
+    college_url: https://www.microsoft.com/cs-cz/education/students/stc
+    visibility: true
   -
-    company: 'Vysoké učení technické v Brně'
-    pozice: 'Mikroelektronika a technologie'
-    text: 'Studium ukončeno po prvním semestru'
+    college_name: 'Vysoké učení technické v Brně'
+    college_degree: 'Mikroelektronika a technologie'
+    description: 'Studium ukončeno po prvním semestru'
     startdate: 'Září 2015'
     enddate: 'Únor 2016'
     tools: ''
     skils: ''
+    college_logo: vutbr.jpg
+    college_url: https://vut.cz
+    visibility: true
   -   
-    company: 'Vyšší odborná škola, Střední škola, Centrum odborné přípravy, Sezimovo Ústí, Budějovická 421'
-    pozice: '26-51-H/01 Elektrikář–programovatelné elektroinstalace'
-    text: 'Přerušeno, chtěl jsem znalosti ne papír. Nedokázalo se přejít efektivně na remote.'
+    college_name: 'Vyšší odborná škola, Střední škola, Centrum odborné přípravy, Sezimovo Ústí, Budějovická 421'
+    college_degree: '26-51-H/01 Elektrikář–programovatelné elektroinstalace'
+    description: 'Přerušeno, chtěl jsem znalosti ne papír. Nedokázalo se přejít efektivně na remote.'
     startdate: 'Září 2020'
     enddate: 'Leden 2021'
     tools: ''
     skils: ''
+    college_logo: copsu.jpeg
+    college_url: https://copsu.cz
+    visibility: true
+
+# Projects
+author_project_details:
+  - project_thumbnail: gamershub.png
+    project_title: Gamers Hub
+    project_description: A Platform built for Gamers and Game Devs
+    project_url: https://gamershub.in
+    visibility: true
+  - project_thumbnail: hack4r.PNG
+    project_title: Hack4r
+    project_description: A Platform built for Hackers and Penetration Testers
+    project_url: https://hack4r.com
+    visibility: true
+
+

@@ -6,11 +6,11 @@ layout: page
 {% for school in site.data.timeline.schools %}
   <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
     <div class="flex-grow-1">
-      <h3 class="mb-0">{{ school.company }}</h3>
-      <div class="subheading mb-3">{{ school.pozice }}</div>
-      <p>{{ school.text }}</p>
+      <h3 class="mb-0">{{ author_education_details.college_name }}</h3>
+      <div class="subheading mb-3">{{ author_education_details.college_degree }}</div>
+      <p>{{ author_education_details.description }}</p>
     </div>
-    <div class="flex-shrink-0"><span class="text-primary">{{ school.startdate }} - {{ school.enddate }}</span></div>
+    <div class="flex-shrink-0"><span class="text-primary">{{ author_education_details.startdate }} - {{ author_education_details.enddate }}</span></div>
   </div>
 {% endfor %}
 </div>
